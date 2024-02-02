@@ -1,0 +1,24 @@
+* {
+  margin: 0xp;
+  padding: 0px;
+}
+
+div {
+  display: flex;
+}
+
+.C {
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  letter-spacing: 5px;
+  background-color: yellow;
+  border: 3px solid red;
+  width: 130px;
+  height: 50px;
+}
+.C .B:nth-child(2) {
+  position: relative;
+  bottom: 10px;
+}/*# sourceMappingURL=zad_01.css.map */

@@ -1,0 +1,21 @@
+.A{
+    position: absolute;
+    background-color: rgb(215, 245, 255);
+    border: 3px solid blue;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    top: calc(50vh - 110px);
+    left: calc(50vw - 210px);
+}
+
+.B{
+    position: absolute;
+    background-color: rgb(254, 194, 194);
+    border: 3px solid red;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    top: calc(50vh - 40px);
+    left: calc(50vw - 40px);
+}

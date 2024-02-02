@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+
+.A{
+    position: absolute;
+    background-color: rgb(215, 245, 255);
+    border: 3px solid blue;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+
+.B{
+    position: absolute;
+    background-color: rgb(254, 194, 194);
+    border: 3px solid red;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+ /*    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    margin: auto;
+    top: 25rem;
+    left: 30rem;
+
+
+}

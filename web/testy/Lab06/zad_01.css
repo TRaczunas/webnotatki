@@ -1,0 +1,26 @@
+
+.content{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	width: 500px; /* 5*(100+2*10+2): 100 width/height, 10 padding 1 border */
+	border: 1px solid black;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color-plane{
+	border: 1px solid black;
+	/* padding: 10px; */
+	font-size: 20px;
+	color:	white;
+	/* width: 100px; */
+	height: 100px;
+	text-shadow: 2px 2px 2px rgb(0,0,0,0.5);
+}
+
+.color-plane:nth-child(odd){
+	background-color: #FDE2B8;
+}
+.color-plane:nth-child(even){
+	background-color: #DAB68A;
+}

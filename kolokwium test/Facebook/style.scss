@@ -1,0 +1,219 @@
+/* *{color: white;} */
+
+body {
+  background-color: rgb(28, 30, 33);
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  width: 70vw;
+  margin: auto;
+
+}
+
+.header{
+  display: flex;
+  padding: 20px;
+  align-items: flex-end ;
+}
+
+.logo{
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 7px solid rgba(0, 0, 0, 0.7);
+  background-color: #25827F;
+}
+
+.change-photo{
+  position: relative;
+  left: -20px;
+  top: -20px;
+  border: 7px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.name{
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  padding-left: 15px;
+}
+
+.menu-list a{
+  color: gray;
+}
+
+ul{
+/*   margin: 0; */
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 15px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 40% 58%;
+  gap: 20px;
+}
+
+/* .container{
+  display: flex;
+
+}
+
+.left{
+  width: 40%;
+  background-color: purple;
+}
+
+.right{
+  width: 60%;
+  background-color: darkgreen;
+} */
+
+
+.buttons{
+  padding: 10px;
+}
+
+.btn{
+  background-color: #3a3b3c;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 15px;
+  border: 0;
+  margin-left: 10px;
+}
+
+.box:first-child{
+  padding: 3px 10px;
+}
+
+.box{
+  background-color: #242526;
+  border-radius: 10px;
+  padding: 20px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+h2{
+  color: white;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.left .photos{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 15px;
+}
+
+
+.left .photo{
+  height: 125px;
+  border-radius: 10px;
+}
+
+.left .photo:nth-child(1){
+  background-color: lightblue;
+  color: lightblue;
+}
+
+.left .photo:nth-child(2){
+  background-color: lightcoral;
+  color: lightcoral;
+}
+
+.left .photo:nth-child(3){
+  background-color: lightsteelblue;
+  color: lightsteelblue;
+}
+
+.left .photo:nth-child(4){
+  background-color: lightgreen;
+  color: lightgreen;
+}
+
+.left .photo:nth-child(5){
+  background-color: lightsalmon;
+  color: lightsalmon;
+}
+
+.left .photo:nth-child(6){
+  background-color: lightslategrey;
+  color: lightslategrey;
+}
+
+.left .photo:nth-child(7){
+  background-color: lightgray;
+  color: lightgray;
+}
+
+.left .photo:nth-child(8){
+  background-color: lightpink;
+  color: lightpink;
+}
+
+.left .photo:nth-child(9){
+  background-color: lightseagreen;
+  color: lightseagreen;
+}
+
+.right .box a{
+  color: white;
+  font-weight: bold;
+}
+
+.box:last-child p{
+  text-align: center;
+}
+
+.right .photos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right .photos .photo{
+  width: 30%;
+  height: 200px;
+  background-color: darkgray;
+  border: 1px black solid;
+  flex-grow: 1;
+}
+
+.footer ul{
+  display: flex;
+  font-size: 80%;
+  color: lightgray;
+}
+
+.footer li:first-child{
+  padding-right: 12px;
+}
+
+.footer li:last-child::marker{
+  content: ' | ';
+}

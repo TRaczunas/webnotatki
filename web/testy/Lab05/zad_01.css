@@ -1,0 +1,55 @@
+body{margin: 0px}
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+
+.box {
+	flex-grow: 1;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+.box-1 {
+	background-color: violet;
+	order: 2;
+}
+.box-2 {
+	background-color: wheat;
+	order: 9;
+}
+.box-3 {
+	background-color: whitesmoke;
+	order: 1;
+}
+.box-4 {
+	background-color: yellow;
+	order: 3;
+}
+.box-5 {
+	background-color: yellowgreen;
+	order: 4;
+}
+.box-6 {
+	background-color: turquoise;
+	order: 5;
+}
+.box-7 {
+	background-color: tomato;
+	order: 10;
+}
+.box-8 {
+	background-color: thistle;
+	order: 6;
+}
+.box-9 {
+	background-color: teal;
+	order: 7;
+}
+.box-10 {
+	background-color: tan;
+	order: 8;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  border: 1px solid #8e9074;
+  padding-bottom: 20px;
+}
+
+header {
+  color: white;
+  background-image: url('foggy.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 300px;
+}
+
+.nav {
+	display: flex;
+	padding: 10px 5px;
+	background-color: rgb(0 0 0/ 50%);
+}
+.header{
+	width: 10vw;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.nav-items {
+	width: 90vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nav-items li{
+	list-style-type: none;
+}
+
+.box{
+	text-align: center;
+}
+
+.box .title{
+	font-weight: bold;
+	font-size: 2rem;
+	padding-top: 90px;
+}
+.box .description{
+	padding-top: 30px;
+}
+
+body>section{
+	padding-top: 15px;
+	width: 70vw;
+	margin:auto;
+}
+
+.items{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 10px 20px;
+}
+
+.item{
+	width: 20vw;
+	flex-grow: 1;
+	box-shadow: 0px 2px 5px #8e9074;
+}
+
+.image{
+	position:relative;
+	background-color: #8e9074;
+	color: white;
+	font-size: 0.7rem;
+	height: 100px;
+}
+.date{
+	position:absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 1.1rem;
+	padding: 10px;
+}
+
+.item .description{
+	padding: 10px;
+}
